@@ -4,7 +4,7 @@ def result (a,b,c,d):
 
 while True:
     try: 
-        print("Введите A,B,C,В")
+        print("Введите A,B,C,D")
         a, b, c, d = [float(input()) for x in range(3)]
 
         print("Результат",result(a,b,c,d))
